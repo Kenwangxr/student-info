@@ -2,16 +2,16 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head><script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico" type="image/x-icon" />
+<head><script type="text/javascript" src="/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/utils/image/favicon.ico" type="image/x-icon" />
 <meta charset="UTF-8">
 <title>项目必读</title>
 <!-- Loading Bootstrap -->
-<link href="/StudentInfo/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
 <!-- Loading Flat UI Pro -->
-<link href="/StudentInfo/utils/css/flat-ui.css" rel="stylesheet">
+<link href="/utils/css/flat-ui.css" rel="stylesheet">
 <!-- Loading Flat UI JS -->
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.min.js"></script>
-<script type='text/javascript' src='/StudentInfo/utils/scripts/particles.js'></script><link href="/StudentInfo/utils/css/animate.css" rel="stylesheet"></head>
+<script type="text/javascript" src="/utils/scripts/flat-ui.min.js"></script>
+<script type='text/javascript' src='/utils/scripts/particles.js'></script><link href="/utils/css/animate.css" rel="stylesheet"></head>
 <body>
 	
 	
@@ -102,5 +102,5 @@
 当你的才华还撑不起你的野心的时候，<br>你就应该静下心来学习。</font>
 </center>
 	
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script><script src="/StudentInfo/utils/scripts/bganimation.js"></script></body>
+<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script><script src="/utils/scripts/bganimation.js"></script></body>
 </html>

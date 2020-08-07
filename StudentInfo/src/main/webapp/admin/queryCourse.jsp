@@ -3,17 +3,17 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
-<head><script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico" type="image/x-icon" />
+<head><script type="text/javascript" src="/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/utils/image/favicon.ico" type="image/x-icon" />
 <meta charset="UTF-8">
 <title>学生信息管理系统</title>
-<script type="text/javascript" src="/StudentInfo/utils/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/utils/js/jquery-3.3.1.min.js"></script>
 <!-- Loading Bootstrap -->
-<link href="/StudentInfo/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
 <!-- Loading Flat UI Pro -->
-<link href="/StudentInfo/utils/css/flat-ui.css" rel="stylesheet">
+<link href="/utils/css/flat-ui.css" rel="stylesheet">
 <!-- Loading Flat UI JS -->
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.min.js"></script>
-<script type='text/javascript' src='/StudentInfo/utils/scripts/particles.js'></script><link href="/StudentInfo/utils/css/animate.css" rel="stylesheet"></head>
+<script type="text/javascript" src="/utils/scripts/flat-ui.min.js"></script>
+<script type='text/javascript' src='/utils/scripts/particles.js'></script><link href="/utils/css/animate.css" rel="stylesheet"></head>
 
 <body><div id="particles-js"><canvas class="particles-js-canvas-el" width="1322" height="774" style="width: 100%; height: 100%;"></canvas></div>
 	<jsp:include page="adminLeft.jsp" />
@@ -22,7 +22,7 @@
 			<div class="col-md-12">
 				<h5>课程管理</h5>
 				
-				<form name="studentquery" action="/StudentInfo/CourseHandler/query/1" method="get">
+				<form name="studentquery" action="/CourseHandler/query/1" method="get">
 					<div class="row">
 						<div class="col-md-4">
 							<strong>查询条件<br></strong> <select name="serc"
@@ -82,11 +82,11 @@
 							<td>${course.belongpro}</td>
 
 
-							<td><a class="btn btn-default" href="/StudentInfo/CourseHandler/moditystu/${course.cid}">
+							<td><a class="btn btn-default" href="/CourseHandler/moditystu/${course.cid}">
 									修改 </a></td>
 
 							<td><a class="btn btn-default" class="deleteCss"
-								href="/StudentInfo/CourseHandler/delete/${course.cid}"> 删除 </a></td>
+								href="/CourseHandler/delete/${course.cid}"> 删除 </a></td>
 						</tr>
 
 					</c:forEach>
@@ -105,9 +105,9 @@
 		<div class="col-md-6">
 			<nav aria-label="Page navigation">
 			<ul class="pagination bg-primary">
-				<li><a href="/StudentInfo/CourseHandler/query/1?serc=${requestScope.serc}&condition=${requestScope.condition}">首页</a></li>
+				<li><a href="/CourseHandler/query/1?serc=${requestScope.serc}&condition=${requestScope.condition}">首页</a></li>
 				<c:if test="${pageInfo.hasPreviousPage }">
-					<li><a href="/StudentInfo/CourseHandler/query/${pageInfo.pageNum-1}?serc=${requestScope.serc}&condition=${requestScope.condition}"
+					<li><a href="/CourseHandler/query/${pageInfo.pageNum-1}?serc=${requestScope.serc}&condition=${requestScope.condition}"
 						aria-label="Previous"> <span aria-hidden="true">«</span>
 					</a></li>
 				</c:if>
@@ -117,16 +117,16 @@
 						<li class="active"><a href="#">${page_Num }</a></li>
 					</c:if>
 					<c:if test="${page_Num != pageInfo.pageNum }">
-						<li><a href="/StudentInfo/CourseHandler/query/${page_Num }?serc=${requestScope.serc}&condition=${requestScope.condition}">${page_Num }</a></li>
+						<li><a href="/CourseHandler/query/${page_Num }?serc=${requestScope.serc}&condition=${requestScope.condition}">${page_Num }</a></li>
 					</c:if>
  
 				</c:forEach>
 				<c:if test="${pageInfo.hasNextPage }">
-					<li><a href="/StudentInfo/CourseHandler/query/${pageInfo.pageNum+1 }?serc=${requestScope.serc}&condition=${requestScope.condition}"
+					<li><a href="/CourseHandler/query/${pageInfo.pageNum+1 }?serc=${requestScope.serc}&condition=${requestScope.condition}"
 						aria-label="Next"> <span aria-hidden="true">»</span>
 					</a></li>
 				</c:if>
-				<li><a href="/StudentInfo/CourseHandler/query/${pageInfo.pages}?serc=${requestScope.serc}&condition=${requestScope.condition}">末页</a></li>
+				<li><a href="/CourseHandler/query/${pageInfo.pages}?serc=${requestScope.serc}&condition=${requestScope.condition}">末页</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -139,6 +139,6 @@
 			dropdownCssClass : 'dropdown-inverse'
 		});
 	</script>
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script>
-<script src="/StudentInfo/utils/scripts/bganimation.js"></script></body>
+<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script>
+<script src="/utils/scripts/bganimation.js"></script></body>
 </html>

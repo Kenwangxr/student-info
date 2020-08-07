@@ -3,13 +3,13 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
-<head><script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico" type="image/x-icon" />
+<head><script type="text/javascript" src="/utils/scripts/flat-ui.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="shortcut icon" href="/utils/image/favicon.ico" type="image/x-icon" />
 <meta charset="UTF-8">
 <title>操作成功</title>
 <!-- Loading Bootstrap -->
-<link href="/StudentInfo/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
 <!-- Loading Flat UI Pro -->
-<link href="/StudentInfo/utils/css/flat-ui.css" rel="stylesheet">
+<link href="/utils/css/flat-ui.css" rel="stylesheet">
 <!-- Loading Flat UI JS -->
 <script type="text/javascript" src="/online/scripts/flat-ui.min.js"></script>
 <script type='text/javascript' src='/online/scripts/particles.js'></script><link href="/online/css/animate.css" rel="stylesheet"></head>
@@ -23,5 +23,5 @@
 			</div>
 		</div>
 	</div>
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script><script src="/StudentInfo/utils/scripts/bganimation.js"></script></body>
+<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script><script src="/utils/scripts/bganimation.js"></script></body>
 </html>

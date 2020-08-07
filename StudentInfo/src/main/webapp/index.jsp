@@ -5,7 +5,7 @@
 <head>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico"
+<link rel="shortcut icon" href="/utils/image/favicon.ico"
 	type="utils/image/x-icon" />
 <meta charset="UTF-8">
 <title>学生信息管理系统</title>
@@ -59,7 +59,7 @@ body {
 }
 </style>
 
-<link href="/StudentInfo/utils/css/animate.css" rel="stylesheet">
+<link href="/utils/css/animate.css" rel="stylesheet">
 </head>
 <body style="display: flex;">
 
@@ -264,15 +264,15 @@ body {
 
 			var action = null;
 			if (role == 'student') {
-				action = "/StudentInfo/LoginHandler/studentlogin";
+				action = "LoginHandler/studentlogin";
 				useridEle.name = "sid";
 				passwordEle.name = "spassword";
 			} else if (role == 'teacher') {
-				action = "/StudentInfo/LoginHandler/teacherlogin";
+				action = "LoginHandler/teacherlogin";
 				useridEle.name = "tid";
 				passwordEle.name = "tpassword";
 			} else {
-				action = "/StudentInfo/LoginHandler/adminlogin";
+				action = "LoginHandler/adminlogin";
 				useridEle.name = "aname";
 				passwordEle.name = "apassword";
 			}

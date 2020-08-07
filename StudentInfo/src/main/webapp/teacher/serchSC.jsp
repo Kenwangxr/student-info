@@ -4,22 +4,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script>
+<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico"
+<link rel="shortcut icon" href="/utils/image/favicon.ico"
 	type="image/x-icon" />
 <meta charset="UTF-8">
 <title>学生信息管理系统</title>
 
-<script type="text/javascript" src="/StudentInfo/utils/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/utils/js/jquery-3.3.1.min.js"></script>
 <!-- Loading Bootstrap -->
-<link href="/StudentInfo/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
 <!-- Loading Flat UI Pro -->
-<link href="/StudentInfo/utils/css/flat-ui.css" rel="stylesheet">
+<link href="/utils/css/flat-ui.css" rel="stylesheet">
 <!-- Loading Flat UI JS -->
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.min.js"></script>
-<script type='text/javascript' src='/StudentInfo/utils/scripts/particles.js'></script><link href="/StudentInfo/utils/css/animate.css" rel="stylesheet"></head>
+<script type="text/javascript" src="/utils/scripts/flat-ui.min.js"></script>
+<script type='text/javascript' src='/utils/scripts/particles.js'></script><link href="/utils/css/animate.css" rel="stylesheet"></head>
 <body><div id="particles-js"><canvas class="particles-js-canvas-el" width="1322" height="774" style="width: 100%; height: 100%;"></canvas></div>
 	<jsp:include page="teacherLeft.jsp" />
 	<div class="container">
@@ -45,11 +45,11 @@
 										<td>${exit.cname }</td>
 										<td>${exit.totalNum }</td>
 										<td>${exit.stuSum }</td>
-										<td><a class="btn btn-default" href="/StudentInfo/TeacherHandler/looksel/${exit.cid }/${exit.cname}/1">
+										<td><a class="btn btn-default" href="/TeacherHandler/looksel/${exit.cid }/${exit.cname}/1">
 												查看名单 </a></td>
-										<td><a class="btn btn-default" href="/StudentInfo/TeacherHandler/endcou/${exit.cid }/${exit.cname}/1">
+										<td><a class="btn btn-default" href="/TeacherHandler/endcou/${exit.cid }/${exit.cname}/1">
 												结课 </a></td>
-										<td><a class="btn btn-default" href="/StudentInfo/TeacherHandler/endcougrade/${exit.cid }/${exit.cname}/1">
+										<td><a class="btn btn-default" href="/TeacherHandler/endcougrade/${exit.cid }/${exit.cname}/1">
 												查询成绩 </a></td>
 									</tr>
 								</c:forEach>
@@ -72,9 +72,9 @@
 		<div class="col-md-6">
 			<nav aria-label="Page navigation">
 			<ul class="pagination">
-				<li><a href="/StudentInfo/TeacherHandler/sercsc/${sessionScope.tid }/1">首页</a></li>
+				<li><a href="/TeacherHandler/sercsc/${sessionScope.tid }/1">首页</a></li>
 				<c:if test="${pageInfo.hasPreviousPage }">
-					<li><a href="/StudentInfo/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pageNum-1}"
+					<li><a href="/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pageNum-1}"
 						aria-label="Previous"> <span aria-hidden="true">«</span>
 					</a></li>
 				</c:if>
@@ -84,16 +84,16 @@
 						<li class="active"><a href="#">${page_Num }</a></li>
 					</c:if>
 					<c:if test="${page_Num != pageInfo.pageNum }">
-						<li><a href="/StudentInfo/TeacherHandler/sercsc/${sessionScope.tid }/${page_Num }">${page_Num }</a></li>
+						<li><a href="/TeacherHandler/sercsc/${sessionScope.tid }/${page_Num }">${page_Num }</a></li>
 					</c:if>
  
 				</c:forEach>
 				<c:if test="${pageInfo.hasNextPage }">
-					<li><a href="/StudentInfo/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pageNum+1 }"
+					<li><a href="/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pageNum+1 }"
 						aria-label="Next"> <span aria-hidden="true">»</span>
 					</a></li>
 				</c:if>
-				<li><a href="/StudentInfo/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pages}">末页</a></li>
+				<li><a href="/TeacherHandler/sercsc/${sessionScope.tid }/${pageInfo.pages}">末页</a></li>
 			</ul>
 			</nav>
 		</div>
@@ -105,6 +105,6 @@
 		
 		
 	</div>
-	<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script>
-<script src="/StudentInfo/utils/scripts/bganimation.js"></script></body>
+	<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script>
+<script src="/utils/scripts/bganimation.js"></script></body>
 </html>

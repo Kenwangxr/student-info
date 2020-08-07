@@ -4,28 +4,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script>
+<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="/StudentInfo/utils/image/favicon.ico"
+<link rel="shortcut icon" href="/utils/image/favicon.ico"
 	type="image/x-icon" />
 <meta charset="UTF-8">
 <title>学生信息管理系统</title>
 
-<script type="text/javascript" src="/StudentInfo/utils/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/utils/js/jquery-3.3.1.min.js"></script>
 <!-- Loading Bootstrap -->
-<link href="/StudentInfo/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
+<link href="/utils/css/vendor/bootstrap.min.css" rel="stylesheet">
 <!-- Loading Flat UI Pro -->
-<link href="/StudentInfo/utils/css/flat-ui.css" rel="stylesheet">
+<link href="/utils/css/flat-ui.css" rel="stylesheet">
 <!-- Loading Flat UI JS -->
-<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.min.js"></script>
+<script type="text/javascript" src="/utils/scripts/flat-ui.min.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(
 			function() {
 				$("#classroom").change(
 						function() {
-							$.post("/StudentInfo/AjaxHandler/existTime?coursetime="
+							$.post("/AjaxHandler/existTime?coursetime="
 									+ $("#coursetime").val() + "&courseweek="
 									+ $("#courseweek").val() + "&classroom="
 									+ $("#classroom").val(), function(data,
@@ -38,7 +38,7 @@
 			})
 </script>
 
-<script type='text/javascript' src='/StudentInfo/utils/scripts/particles.js'></script><link href="/StudentInfo/utils/css/animate.css" rel="stylesheet"></head>
+<script type='text/javascript' src='/utils/scripts/particles.js'></script><link href="/utils/css/animate.css" rel="stylesheet"></head>
 
 
 
@@ -49,7 +49,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h5>新建课程</h5>
-				<form action="/StudentInfo/CoursePlanHandler/doaddcouplan/${sessionScope.tid}"
+				<form action="/CoursePlanHandler/doaddcouplan/${sessionScope.tid}"
 					method="get">
 					<div class="row">
 						<div class="col-md-6">
@@ -170,7 +170,7 @@
 		</div>
 
 	</div>
-	<script type="text/javascript" src="/StudentInfo/utils/scripts/flat-ui.js"></script>
-<script src="/StudentInfo/utils/scripts/bganimation.js"></script></body>
+	<script type="text/javascript" src="/utils/scripts/flat-ui.js"></script>
+<script src="/utils/scripts/bganimation.js"></script></body>
 
 </html>
