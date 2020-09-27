@@ -12,7 +12,7 @@
 <!-- Loading Flat UI JS -->
 <script type="text/javascript" src="/utils/scripts/flat-ui.min.js"></script>
 <script type='text/javascript' src='/utils/scripts/particles.js'></script><link href="/utils/css/animate.css" rel="stylesheet"></head>
-<body><div id="particles-js"><canvas class="particles-js-canvas-el" width="1322" height="774" style="width: 100%; height: 100%;"></canvas></div>
+<body><div id="particles-js"></div>
 	<br>
 	<div class="container">
 		<div class="row">

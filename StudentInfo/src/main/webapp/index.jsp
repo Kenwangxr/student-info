@@ -74,9 +74,9 @@ body {
 
 
 	<div id="particles-js">
-		<canvas class="particles-js-canvas-el" width="1322" height="774"
-			style="width: 100%; height: 100%;">
-    </canvas>
+		<%--<canvas class="particles-js-canvas-el" width="1322" height="774"--%>
+			<%--style="width: 100%; height: 100%;">--%>
+    <%--</canvas>--%>
 	</div>
 	<div class="container" id="particles"
 		style="position: relative; top: -4rem; margin: auto;">

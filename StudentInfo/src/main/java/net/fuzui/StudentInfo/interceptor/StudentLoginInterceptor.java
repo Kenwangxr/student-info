@@ -28,7 +28,7 @@ public class StudentLoginInterceptor implements HandlerInterceptor {
 		Object sid = request.getSession().getAttribute("sid");
         if (sid == null) {
             System.out.println("尚未登录，调到登录页面");
-            response.sendRedirect("/StudentInfo/index.jsp");
+            response.sendRedirect("/index.jsp");
             return false;
         }
         

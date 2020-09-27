@@ -85,7 +85,7 @@ public class StudentHandler {
 	@RequestMapping("/moditypwstu/{sid}")
 	public ModelAndView teacherModi(@PathVariable(value = "sid") String sid, Model model) {
 
-		return new ModelAndView(new RedirectView("/StudentInfo/student/modityPwStu.jsp"));
+		return new ModelAndView(new RedirectView("/student/modityPwStu.jsp"));
 	}
 
 	// 修改
@@ -224,7 +224,7 @@ public class StudentHandler {
 	@RequestMapping("/backseling/{cid}")
 	public ModelAndView backConfirmSelect(@PathVariable(value = "cid") String cid) {
 
-		return new ModelAndView(new RedirectView("/StudentInfo/StudentHandler/selqueryy/1"));
+		return new ModelAndView(new RedirectView("/StudentHandler/selqueryy/1"));
 
 	}
 
@@ -273,7 +273,7 @@ public class StudentHandler {
 	public ModelAndView exitSel(@PathVariable("cid") String cid, @PathVariable("sid") String sid) {
 
 		if (selectCourseService.deleteSC(cid, sid) != 0) {
-			return new ModelAndView(new RedirectView("/StudentInfo/StudentHandler/exitchoose/{sid}/1"));
+			return new ModelAndView(new RedirectView("/StudentHandler/exitchoose/{sid}/1"));
 		} else {
 			return new ModelAndView(new RedirectView("../fail.jsp"));
 		}

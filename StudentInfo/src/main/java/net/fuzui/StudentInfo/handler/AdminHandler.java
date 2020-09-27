@@ -344,7 +344,7 @@ public class AdminHandler {
 
  			//---------------------------------待优化-----同样不能实时刷新--------------------------------------------
  			return "success";
- 			//return new ModelAndView(new RedirectView("/StudentInfo/TeacherHandler/finalPage"));
+ 			//return new ModelAndView(new RedirectView("/TeacherHandler/finalPage"));
  			// return "techer/teacherFace";
  		} else {
  			return "fail";

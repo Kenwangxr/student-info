@@ -56,11 +56,11 @@ public class CoursePlanHandler {
 			model.addAttribute("coursePlan", coursePlan);
 			System.out.println(coursePlan);
 			
-			return new ModelAndView(new RedirectView("/StudentInfo/TeacherHandler/managecou/{tid}/1"));
+			return new ModelAndView(new RedirectView("/TeacherHandler/managecou/{tid}/1"));
 			//return "success";
 
 		} else {
-			return new ModelAndView(new RedirectView("/StudentInfo/fail.jsp"));
+			return new ModelAndView(new RedirectView("/fail.jsp"));
 		}
 
 	}
@@ -187,10 +187,10 @@ public class CoursePlanHandler {
 	public ModelAndView modityCouPlan(@PathVariable(value = "tid") String tid, CoursePlan coursePlan) {
 
 		if (coursePlanService.modifyCoursePlan(coursePlan) != 0) {
-			return new ModelAndView(new RedirectView("/StudentInfo/TeacherHandler/managecou/{tid}/1"));
+			return new ModelAndView(new RedirectView("/TeacherHandler/managecou/{tid}/1"));
 		} else {
 
-			return new ModelAndView(new RedirectView("/StudentInfo/fail.jsp"));
+			return new ModelAndView(new RedirectView("/fail.jsp"));
 		}
 	}
 
@@ -204,10 +204,10 @@ public class CoursePlanHandler {
 			
 			httpSession.removeAttribute("couList");
 			httpSession.removeAttribute("coursePlanList");
-			return new ModelAndView(new RedirectView("/StudentInfo/TeacherHandler/managecou/{tid}/1"));
+			return new ModelAndView(new RedirectView("/TeacherHandler/managecou/{tid}/1"));
 		} else {
 
-			return new ModelAndView(new RedirectView("/StudentInfo/fail.jsp"));
+			return new ModelAndView(new RedirectView("/fail.jsp"));
 		}
 	}
 

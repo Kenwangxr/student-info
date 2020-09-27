@@ -70,7 +70,7 @@ public class LoginHandler {
     public ModelAndView adminLogout(HttpSession httpSession) {
         httpSession.removeAttribute("aname");
         httpSession.removeAttribute("couList");
-        return new ModelAndView(new RedirectView("/StudentInfo/index.jsp"));
+        return new ModelAndView(new RedirectView("/index.jsp"));
     }
     
     
@@ -101,7 +101,7 @@ public class LoginHandler {
  		httpSession.removeAttribute("courseList");
  		httpSession.removeAttribute("ssrList");
  		httpSession.removeAttribute("sesList");
- 		return new ModelAndView(new RedirectView("/StudentInfo/index.jsp"));
+ 		return new ModelAndView(new RedirectView("/index.jsp"));
  	}
     
  	
@@ -137,6 +137,6 @@ public class LoginHandler {
  		httpSession.removeAttribute("sesList");
  		httpSession.removeAttribute("lookList");
 
- 		return new ModelAndView(new RedirectView("/StudentInfo/index.jsp"));
+ 		return new ModelAndView(new RedirectView("/index.jsp"));
  	}
 }
