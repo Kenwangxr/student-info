@@ -11,16 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.service.impl
- * @ClassName: TeacherServiceImpl
- * @Description: java类作用描述
- * @Author: 王泽
- * @CreateDate: 2019-04-09 20:02
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-09 20:02
- * @UpdateRemark: 更新说明
- * @Version: 1.0
+ * 教师管理服务实现类
  */
 @Service
 public class TeacherServiceImpl implements TeacherService {

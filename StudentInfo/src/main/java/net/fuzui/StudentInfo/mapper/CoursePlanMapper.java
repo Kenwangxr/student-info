@@ -8,16 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.mapper
- * @ClassName: CoursePlanMapper
  * @Description: 课程安排数据接口层
- * @Author: 王泽
- * @CreateDate: 2019-04-10 15:22
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-10 15:22
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 public interface CoursePlanMapper {
 

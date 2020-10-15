@@ -10,16 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.mapper
- * @ClassName: SelectCourseMapper
  * @Description: 选课数据访问接口
- * @Author: 王泽
- * @CreateDate: 2019-04-10 19:54
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-10 19:54
- * @UpdateRemark: 接口
- * @Version: 1.0
  */
 public interface SelectCourseMapper {
 

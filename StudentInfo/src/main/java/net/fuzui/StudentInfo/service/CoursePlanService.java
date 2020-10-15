@@ -8,16 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.service
- * @ClassName: CoursePlanService
  * @Description: 课程安排service接口类
- * @Author: 王泽
- * @CreateDate: 2019-04-10 15:58
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-10 15:58
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 
 public interface CoursePlanService {

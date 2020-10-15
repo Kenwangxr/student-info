@@ -6,16 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.service
- * @ClassName: TeacherService
  * @Description: 教师service接口类
- * @Author: 王泽
- * @CreateDate: 2019-04-09 19:58
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-09 19:58
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 
 public interface TeacherService {

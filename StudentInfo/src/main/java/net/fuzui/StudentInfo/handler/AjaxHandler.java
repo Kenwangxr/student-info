@@ -18,11 +18,6 @@ import net.fuzui.StudentInfo.service.CourseService;
 import net.fuzui.StudentInfo.service.StudentService;
 import net.fuzui.StudentInfo.service.TeacherService;
 
-/**
- * @author fuzui
- * @date 2019年4月13日 下午5:32:39
- * 
- */
 @Controller
 @RequestMapping("/AjaxHandler")
 public class AjaxHandler {

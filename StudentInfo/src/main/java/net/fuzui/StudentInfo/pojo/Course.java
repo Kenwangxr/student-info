@@ -1,16 +1,7 @@
 package net.fuzui.StudentInfo.pojo;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.pojo
- * @ClassName: Course
  * @Description: 课程实体类
- * @Author: 王泽
- * @CreateDate: 2019-04-06 16:34
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-06 16:34
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 public class Course implements java.io.Serializable{
     /**

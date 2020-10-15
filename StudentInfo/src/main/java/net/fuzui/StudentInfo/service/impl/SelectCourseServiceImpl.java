@@ -14,16 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.service.impl
- * @ClassName: SelectCourseServiceImpl
  * @Description: 选课service具体实现类
- * @Author: 王泽
- * @CreateDate: 2019-04-10 21:00
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-10 21:00
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 @Service
 public class SelectCourseServiceImpl implements SelectCourseService {

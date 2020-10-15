@@ -26,19 +26,6 @@ import net.fuzui.StudentInfo.service.CourseService;
 
 
 
-/**
- * 
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.handler
- * @ClassName: CoursePlanHandler
- * @Description: 类描述
- * @Author: 王泽
- * @CreateDate: 2019年4月11日 下午4:26:12
- * @UpdateUser: 王泽
- * @UpdateDate: 2019年4月11日 下午4:26:12
- * @UpdateRemark: 新建
- * @Version: 1.0
- */
 @Controller
 @RequestMapping("/CoursePlanHandler")
 public class CoursePlanHandler {

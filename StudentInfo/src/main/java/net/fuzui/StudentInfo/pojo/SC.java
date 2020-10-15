@@ -1,16 +1,7 @@
 package net.fuzui.StudentInfo.pojo;
 
 /**
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.pojo
- * @ClassName: SC
  * @Description: 选课实体类
- * @Author: 王泽
- * @CreateDate: 2019-04-06 16:39
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-06 16:39
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 public class SC implements java.io.Serializable {
     /**

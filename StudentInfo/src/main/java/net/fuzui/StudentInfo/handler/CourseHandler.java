@@ -22,19 +22,6 @@ import net.fuzui.StudentInfo.pojo.Course;
 import net.fuzui.StudentInfo.pojo.Teacher;
 import net.fuzui.StudentInfo.service.CourseService;
 
-/**
- * 
- * @ProjectName: StudentInfo
- * @Package: net.fuzui.StudentInfo.handler
- * @ClassName: CourseHandler
- * @Description: 课程handler类（servlet）
- * @Author: 王泽
- * @CreateDate: 2019年4月11日 下午4:13:55
- * @UpdateUser: 王泽
- * @UpdateDate: 2019年4月11日 下午4:13:55
- * @UpdateRemark: 新建
- * @Version: 1.0
- */
 @Controller
 @RequestMapping("/CourseHandler")
 @SessionAttributes("courseList")

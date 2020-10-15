@@ -9,16 +9,7 @@ import org.apache.ibatis.session.RowBounds;
 import net.fuzui.StudentInfo.pojo.Student;
 
 /**
-* @ProjectName: StudentInfo
-* @Package: net.fuzui.StudentInfo.mapper
-* @ClassName: StudentMapper
 * @Description: 学生数据访问层接口
-* @Author: 王泽
-* @CreateDate: 2019-04-07 22:08
-* @UpdateUser: 王泽
-* @UpdateDate: 2019-04-07 22:08
-* @UpdateRemark: 新建
-* @Version: 1.0
  */
 
 public interface StudentMapper {

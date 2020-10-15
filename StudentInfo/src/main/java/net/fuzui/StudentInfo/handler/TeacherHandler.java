@@ -36,11 +36,6 @@ import net.fuzui.StudentInfo.service.SelectCourseService;
 import net.fuzui.StudentInfo.service.StudentService;
 import net.fuzui.StudentInfo.service.TeacherService;
 
-/**
- * @author fuzui
- * @date 2019年4月11日 下午5:22:15
- * 
- */
 @Controller
 @RequestMapping("/TeacherHandler")
 
