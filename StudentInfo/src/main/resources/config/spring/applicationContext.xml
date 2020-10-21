@@ -12,7 +12,7 @@
 
 
 	<context:annotation-config />
-	<context:component-scan base-package="net.fuzui.StudentInfo.service" />
+	<context:component-scan base-package="net.wangxr.xk.service" />
 
 	
 	<!-- druid连接池 -->
@@ -45,7 +45,7 @@
 	</bean>
 	
 	<!-- 动态数据源 -->
-	<bean id="dataSource" class="net.fuzui.StudentInfo.mysql_rws.DynamicDataSource">
+	<bean id="dataSource" class="net.wangxr.xk.mysql_rws.DynamicDataSource">
 		<property name="writeDataSource" ref="dataSourceWrite" />
 		<property name="readDataSource" ref="dataSourceRead" />
 	</bean>
@@ -61,18 +61,18 @@
 		<!-- mapper配置文件 -->
 		<property name="mapperLocations" value="classpath:mapper/*.xml" />
 		<!-- pojo -->
-		<property name="typeAliasesPackage" value="net.fuzui.StudentInfo.pojo" />
+		<property name="typeAliasesPackage" value="net.wangxr.xk.pojo" />
 		<!-- plugin -->
 		<property name="plugins">
 			<array>
-				<bean class="net.fuzui.StudentInfo.mysql_rws.DynamicPlugin" />
+				<bean class="net.wangxr.xk.mysql_rws.DynamicPlugin" />
 			</array>
 		</property>			
 	</bean>
 	
 	<!-- 配置扫描器 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="net.fuzui.StudentInfo.mapper"></property>
+		<property name="basePackage" value="net.wangxr.xk.mapper"></property>
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
 	</bean>
 	

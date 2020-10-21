@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.fuzui.StudentInfo.mapper.CourseMapper">
+<mapper namespace="net.wangxr.xk.mapper.CourseMapper">
 
 
     <!-- 为了返回List，类型而定义的resultMap -->
@@ -35,7 +35,7 @@
 	</update>
 
     <!-- 根据课程编号查询出课程实体 -->
-    <select id="getByCouCid" parameterType="String" resultType="net.fuzui.StudentInfo.pojo.Course">
+    <select id="getByCouCid" parameterType="String" resultType="net.wangxr.xk.pojo.Course">
 		SELECT * from course c where c.cid = #{cid} and not exists(select 1 from grade g where g.cid=c.cid )
 	</select>
 

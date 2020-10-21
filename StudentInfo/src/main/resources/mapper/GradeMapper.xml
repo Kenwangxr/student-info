@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.fuzui.StudentInfo.mapper.GradeMapper">
+<mapper namespace="net.wangxr.xk.mapper.GradeMapper">
 
     <!-- 为了返回List，类型而定义的resultMap -->
     <resultMap type="Grade" id="resultListGrade">

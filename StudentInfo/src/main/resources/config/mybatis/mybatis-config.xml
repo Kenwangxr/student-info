@@ -5,7 +5,7 @@
 
 	<typeHandlers>
         <!-- handler属性直接配置我们要指定的TypeHandler -->
-        <typeHandler handler="net.fuzui.StudentInfo.handler.MyListTypeHandler"/>
+        <typeHandler handler="net.wangxr.xk.handler.MyListTypeHandler"/>
     </typeHandlers>
 	
 	<plugins>

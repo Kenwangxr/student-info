@@ -84,20 +84,7 @@
   </div>
 </div>
 
-<h5>更新日志</h5>
 
-
-<ul class="list-group">
-          <li class="list-group-item">
-              <p>2019.4.14：发布第一个版本</p>
-              <p>预计下一版本于4.25，将会新增排课查重、选课限制、学分统计、教师系别等功能</p>
-              <p>2019.6.19：新增结课、学分统计、成绩录入功能/p>
-              <p>鉴于这是一个简单的学习项目，因为时间问题暂停更新，会陆续解决已有bug</p>
-          </li>
-          <li class="list-group-item">······</li>
-        </ul>
- <br>
- <br>       
  <center><font face="华文行楷" size=6 color="blue">
 当你的才华还撑不起你的野心的时候，<br>你就应该静下心来学习。</font>
 </center>

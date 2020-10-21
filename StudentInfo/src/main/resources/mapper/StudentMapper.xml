@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.fuzui.StudentInfo.mapper.StudentMapper">
+<mapper namespace="net.wangxr.xk.mapper.StudentMapper">
 	<!-- 为了返回List，类型而定义的resultMap -->
 	<resultMap type="Student" id="resultListStudent">
 		<result column="sid" property="sid" />
@@ -44,7 +44,7 @@
 	</update>
 
 	<!-- 根据学号查询出学生实体 -->
-	<select id="getByStuSid" parameterType="String" resultType="net.fuzui.StudentInfo.pojo.Student">
+	<select id="getByStuSid" parameterType="String" resultType="net.wangxr.xk.pojo.Student">
 		SELECT * from student where sid = #{sid}
 	</select>
 

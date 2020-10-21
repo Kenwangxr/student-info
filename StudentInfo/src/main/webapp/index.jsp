@@ -139,18 +139,7 @@ body {
 								<a data-toggle="modal" data-target="#myModal" href=""><img
 									src="https://fuzui.oss-cn-shenzhen.aliyuncs.com/img/img001.png"></a>
 							</div>
-							<div class="carousel-item">
-								<a href="https://github.com/fuzui/" target="_blank"><img
-									src="https://fuzui.oss-cn-shenzhen.aliyuncs.com/img/github.jpg"></a>
-							</div>
-							<div class="carousel-item">
-								<a href="https://fuzui.net" target="_blank"><img
-									src="https://fuzui.oss-cn-shenzhen.aliyuncs.com/img/myblog.jpg"></a>
-							</div>
-							<div class="carousel-item">
-								<a href="https://blog.csdn.net/qq_39329616" target="_blank"><img
-									src="https://fuzui.oss-cn-shenzhen.aliyuncs.com/img/myinfo.jpg"></a>
-							</div>
+
 						</div>
 
 						<!-- 左右切换按钮 -->
